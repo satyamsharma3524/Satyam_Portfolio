@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,7 +131,7 @@
 
                     <div class="row">
                       <div class="buttons padd-15">
-                        <a href="#" class="btn">Download CV</a>
+                        <a href="resource/Satyam_Resume.pdf" class="btn" download>Download CV</a>
                         <a href="#" class="btn">Hire Me</a>
                       </div>
                     </div>
@@ -585,17 +586,17 @@
 
             <!-- Contact Form  -->
             <div class="row">
-              <form action="" class="contact-form padd-15">
+              <form action="insert.php" method="POST" class="contact-form padd-15">
 
                 <div class="row">
                   <div class="form-item col-6 padd-15">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name">
+                      <input type="text" id="name" class="form-control" placeholder="Name">
                     </div>
                   </div>
                   <div class="form-item col-6 padd-15">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email">
+                      <input type="text" id="email" class="form-control" placeholder="Email">
                     </div>
                   </div>
                 </div>
@@ -603,7 +604,7 @@
                 <div class="row">
                   <div class="form-item col-12 padd-15">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Subject">
+                      <input type="text" id="subjects" class="form-control" placeholder="Subject">
                     </div>
                   </div>
                 </div>
@@ -611,7 +612,7 @@
                 <div class="row">
                   <div class="form-item col-12 padd-15">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Your Message..."></textarea>
+                      <textarea class="form-control" id="messages" placeholder="Your Message..."></textarea>
                     </div>
                   </div>
                 </div>
